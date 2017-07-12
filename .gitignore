@@ -1,0 +1,43 @@
+### PlayFramework template
+# Ignore Play! working directory #
+bin/
+/db
+.eclipse
+/lib/
+/logs/
+/modules
+/project/project
+/project/target
+target/
+tmp/
+test-result
+server.pid
+*.eml
+/dist/
+.cache
+.idea/
+*.iml
+/dest
+common/target/
+dynamo-utils/target/
+kinesis-utils/target
+kinesis-utils/dest/
+data-generator-utils/dest/
+
+### Scala template
+*.class
+*.log
+.lib/
+dist/*
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+.DS_Store
+.sc
+
+out/*
