@@ -13,4 +13,8 @@ public class HelloLambda implements RequestHandler<String, String> {
         return String.format("Hello %s", input);
     }
 
+    public String anotherMethod(String input) {
+        return String.format("Another method says hi, %s", input);
+    }
+
 }
